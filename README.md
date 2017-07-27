@@ -1,6 +1,23 @@
 QuickFIX/J
 ==========
 
+## Updating this fork from original repository:
+
+### 1. Clone your fork:
+
+    git clone https://github.com/goformore/quickfixj.git
+
+### 2. Add remote from original repository in your forked repository: 
+
+    cd into/cloned/fork-repo
+    git remote add upstream https://github.com/quickfix-j/quickfixj.git
+    git fetch upstream
+
+### 3. Updating your fork from original repo to keep up with their changes:
+
+    git pull upstream master
+    git push origin master
+
 [![Build Status](https://travis-ci.org/quickfix-j/quickfixj.svg?branch=master)](https://travis-ci.org/quickfix-j/quickfixj)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.quickfixj/quickfixj-core/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.quickfixj/quickfixj-core)
 
